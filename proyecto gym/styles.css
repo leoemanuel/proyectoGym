@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url(./imagenes/fondo1.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin: 0 20px;
+}
+header ul li a{
+    color: #fff;
+}
+.titular{
+    text-align: center;
+    margin-top: 40vh;
+    color: #fff;
+}
+h1{
+    font-size: 80px;
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.titular a{
+    background: #000;
+    color: #C2E71F;
+    padding: 20px 40px;
+}
+.contenedor-tarjeta{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+.tarjeta{
+    text-align: center;
+    box-shadow: 0px 0px 10px #000;
+    padding: 15px 10px 0px;
+    background-color: #fff;
+    width: 30%;
+    border-radius: 6px;
+}
+#segunda-tarjeta{
+    margin: 0 20px;
+    box-shadow: 0px 0px 10px #000;
+}
+#tarjetas{
+    margin-bottom: 100px;
+}
+.tarjeta h3{
+    font-style: italic;
+}
+#horarios-clases{
+    background: #F6F6F6;
+    margin-top: -200px;
+    padding-top: 150px;
+    height: 40vh;
+}
+table{
+    width: 100%;
+    text-align: center;
+
+}
+.blanco, th{
+    background-color: #fff;
+}
+th{
+    padding: 20px 0;
+    font-style: italic;
+}
+.gris{
+    background: #E8E8E8;
+}
+td{
+    font-weight: bold;
+}
+.hora{
+    font-weight: 400;
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+}
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#galeria img{
+    width: 100%;
+}
+#galeria .foto{
+    width: 25%;
+}
+#contacto{
+    background: #000;
+    text-align: center;
+    color: #fff ;
+    padding: 60px 0;
+}
+#contacto h2{
+    margin: 0;
+}
+#contacto i{
+    color: #B8DE11;
+    margin-right: 8px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.info p{
+    margin: 20px;
+}
+#contacto a{
+    background: #B8DE11;
+    color: #fff;
+    font-style: italic;
+    padding: 20px 40px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 6px;
+    font-weight: bold;
+}
