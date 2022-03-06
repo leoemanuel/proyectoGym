@@ -14,15 +14,17 @@ li {
 a{
     text-decoration: none;
 }
-header{
+.header-home{
     background-image: url(./imagenes/fondo1.jpg);
     height: 100vh;
     background-size: cover;
 }
+/* nab var */
 .menu{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    font-size: 20px;
 }
 header ul{
     display: flex;
@@ -32,6 +34,7 @@ header ul li{
 }
 header ul li a{
     color: #fff;
+
 }
 .titular{
     text-align: center;
@@ -49,11 +52,15 @@ h1{
     background: #000;
     color: #C2E71F;
     padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: bold;
 }
+/* MAIN */
+/* tarjetas de productos */
 .contenedor-tarjeta{
     display: flex;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: -70px;
 }
 .tarjeta{
     text-align: center;
@@ -68,7 +75,7 @@ h1{
     box-shadow: 0px 0px 10px #000;
 }
 #tarjetas{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .tarjeta h3{
     font-style: italic;
@@ -77,12 +84,14 @@ h1{
     background: #F6F6F6;
     margin-top: -200px;
     padding-top: 150px;
-    height: 40vh;
+
 }
+
+/* tabla de horarios */
 table{
     width: 100%;
     text-align: center;
-
+    padding-bottom: 30px;
 }
 .blanco, th{
     background-color: #fff;
@@ -96,6 +105,7 @@ th{
 }
 td{
     font-weight: bold;
+    padding: 10px 0px;
 }
 .hora{
     font-weight: 400;
@@ -106,6 +116,8 @@ h2 {
     font-size: 60px;
     font-style: italic;
 }
+
+/* imagenes de fotos */
 #galeria{
     display: flex;
     flex-wrap: wrap;
@@ -117,6 +129,8 @@ h2 {
 #galeria .foto{
     width: 25%;
 }
+
+/* footer */
 #contacto{
     background: #000;
     text-align: center;
@@ -146,4 +160,242 @@ h2 {
     margin-top: 30px;
     border-radius: 6px;
     font-weight: bold;
+}
+
+/* estilos para usuario.html */
+#ejercicios{
+    background-image: url(./imagenes/fondo2.jpg);
+    height: 125vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -110px;
+}
+
+.titulo-usuario{
+    color: #fff;
+    padding-top: 40px;
+}
+/* Login */
+.header-login{
+    margin-bottom: -63px;
+}
+.main-login{
+    background-image: url(./imagenes/ejercicio1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+.input_login{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 5px 3px 0px #0000002e;
+    border: none;
+}
+.input_login_aceptar{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #B8DE11;
+    color: #fff;
+    font-style: italic;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+}
+.input_login_registrar{
+    margin-top: 20px;
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+}
+.bienvenido{
+    display: flex;
+}
+#h4-login{
+    color: #000;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+/* registro */
+body{
+    background-image: url(./imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.main-register {
+	max-width: 800px;
+	width: 95%;
+	margin: auto;
+	margin-top: 200px;
+}
+.formulario-register {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.formulario__label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+    
+}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+.formulario__input {
+	width: 80%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.formulario__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #000;
+    width: 85%;
+    text-align: center;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 30px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formulario__checkbox {
+	margin-right: 10px;
+}
+
+.formulario__grupo-terminos, 
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+	grid-column: span 2;
+}
+
+.formulario__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje p {
+	margin: 0;
+}
+
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario__btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: #000;
+	color: #C2E71F;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.formulario__btn:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+.formulario__mensaje-exito {
+	font-size: 20px;
+	color: #C2E71F;
+	display: none;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+.swal-overlay {
+    background-color: rgba(48, 49, 49, 0.678);
+  }
+.swal-text {
+    background: #fa2b06b2;
+    padding: 17px;
+    border: 1px solid #fa2b06;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 20px;
 }
