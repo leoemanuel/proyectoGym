@@ -1,0 +1,112 @@
+[
+    {
+        "dia1": "Empuje",
+        "ejercicio": "Press en banco con barra",
+        "series": 4,
+        "repeticiones": "12-10-8-6"
+    },
+    {
+        "dia1": "Empuje",
+        "ejercicio": "Press en banco inclinado con mancuerna",
+        "series": 4,
+        "repeticiones": 10
+    },
+    {
+        "dia1": "Empuje",
+        "ejercicio": "Aperturas en banco inclinado",
+        "series": 4,
+        "repeticiones": 15
+    },
+    {
+        "dia1": "Empuje",
+        "ejercicio": "Press arnold sentado",
+        "series": 4,
+        "repeticiones": "15-12-10-8"
+    },
+    {
+        "dia1": "Empuje",
+        "ejercicio": "Vuelos laterales de pie",
+        "series": 4,
+        "repeticiones": 12
+    },
+    {
+        "dia1": "Empuje",
+        "ejercicio": "Fondo entre bancos",
+        "series": 4,
+        "repeticiones": 12
+    },
+    {
+        "dia1": "Traccion",
+        "ejercicio": "Jalon al pecho agrrare supino",
+        "series": 4,
+        "repeticiones": 10
+    },
+    {
+        "dia1": "Traccion",
+        "ejercicio": "Remo inclinado con barra",
+        "series": 4,
+        "repeticiones":"12-10-8-6"
+    },
+    {
+        "dia1": "Traccion",
+        "ejercicio": "Remo serrucho",
+        "series": 4,
+        "repeticiones": 12
+    },
+    {
+        "dia1": "Traccion",
+        "ejercicio": "Remo al menton con barra Z",
+        "series": 4,
+        "repeticiones":12
+    },
+    {
+        "dia1": "Traccion",
+        "ejercicio": "Posteriores en maquina",
+        "series": 4,
+        "repeticiones":15
+    },
+    {
+        "dia1": "Traccion",
+        "ejercicio": "Curl de biceps en banco scott",
+        "series": 4,
+        "repeticiones":12
+    },
+    {
+        "dia1": "Pierna",
+        "ejercicio": "Sentadilla en maquina hack invertida",
+        "series": 4,
+        "repeticiones":"12-10-8-6"
+    },
+    {
+        "dia1": "Pierna",
+        "ejercicio": "Estocadas estaticas",
+        "series": 4,
+        "repeticiones":"12 de cada lado"
+    },
+    {
+        "dia1": "Pierna",
+        "ejercicio": "Silla cuadriceps",
+        "series": 4,
+        "repeticiones":15
+    },
+    {
+        "dia1": "Pierna",
+        "ejercicio": "Peso muerto rumano con mancuernas",
+        "series": 4,
+        "repeticiones":"15-12-10-8"
+    },
+    {
+        "dia1": "Pierna",
+        "ejercicio": "Camilla femoral",
+        "series": 4,
+        "repeticiones":15
+    },
+    {
+        "dia1": "Pierna",
+        "ejercicio": "Gemelos de pie en hack o MF",
+        "series": 4,
+        "repeticiones":20
+    }
+ 
+
+]
